@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+
+            <style>
+                nav{
+                    width:100%;
+                }
+
+                ul li{
+                    width:25%;
+                }
+                body{
+                    font-family: Verdana;
+                    font-size: 10px;
+                }
+                form{
+                    border: 5px solid rgba(255, 123, 0, 0.884);
+                    text-align: center;
+                    width: 35%;
+                    padding-bottom: 20px;
+                    margin-left:32%;
+                    
+                    margin-top: 5%;
+                    margin-bottom:25% ;
+                    background-image: url(content/inloggen.jpg);
+                    background-image: no-repeat;
+                }
+                input{
+                    width: 50%;
+                }
+                .registreer{
+                    margin-top: 10%;
+                    font-size:18pt ;
+                }
+
+        </style>
+        </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="loguit.php">loguit</a></li>
+                    <li><a href="index.html">home</a></li>
+                </ul>
+            </nav>
+            <div id="registreer" class="registreer">
+            </br> <h1>Maak hier je account aan!</h1>
+            </div>
+            <form id="linda1" class="linda1" action="registreer.php" method="post" enctype="multipart/form-data">
+                <br>
+                <input required type="text"
+                    name="naam" placeholder="Naam" /><br> 
+                <input required type="email"
+                    name="e-mail" placeholder="E-mail" /><br>
+                <input required type="password"
+                    name="password" placeholder="Wachtwoord" /><br>
+                <p>Upload je foto:</p>
+                    <input type="file" name="foto" id="foto"><br><br>
+                <input type="submit"
+                    name="submit" value=" Registreren " />
+                <a href="login.html">
+                    <input type="button"
+                   name="annuleren" value= " Annuleren" />
+            </a>
+        </form>
+    </body>
+</html>

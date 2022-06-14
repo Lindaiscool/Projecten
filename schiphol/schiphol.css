@@ -1,0 +1,24 @@
+
+body{
+    background-color: blueviolet;
+}
+#welkom{
+    text-align: center;
+    font-family: fantasy;
+    color:#343a40;
+}
+form{
+    padding-top: 5%;
+    text-align: center;
+    padding-right: 40%;
+    padding-left: 40%;
+}
+p{
+    font-family: fantasy;
+    text-align: center;
+    color:#343a40;
+}
+#foto{
+    padding-left: 30%;
+    padding-top: 10%;
+}

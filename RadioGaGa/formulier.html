@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+	<html lang="nl">
+
+		<head>
+			<title>RadioGaGa</title>
+			<link rel="stylesheet" href="../RadioGaGa/style/styles.css"> 
+			<meta http-equiv="Content-Type"
+				content="text/html ;
+				charset=UTF-8">
+			<meta name="robots" content="all">
+			<meta name="language" content="Dutch">
+			<meta name="author" content="Linda de Boer">
+			<meta name="descriptio" content="RadioGaGa Marketing">
+			<meta name="keywords" conent="RadioGaGa, Muziek, Playlist">
+			<meta name="copyright" content="copyright">
+			
+		</head>
+
+		<body>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="playlist.html">Playlist</a></li>
+					<li><a href="formulier.html">Formulier</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<div id="Logo1">
+			<div id="logo1"></div>
+			</div>
+			
+			<main>
+                <form name="formulier"
+                    action="mailto: postmaster@radiogaga.com"
+                    method="post">
+                        <fieldset>
+                                <legend>Bestel gratis kaarten</legend>
+                                <input required type="text" id="naam" name="naam" placeholder="naam">
+                                <br>
+                                <input required type="text" id="email" name="email" placeholder="email">
+                                <br>
+                                <input required type="text" id="mobiel" name="mobiel" placeholder="mobiel">
+                                <br>
+                                <input required type="text" id="woonplaats" name="woonplaats" placeholder="woonplaats" list="steden">
+                                    <datalist id="steden">
+                                    <option value="Amsterdam">
+                                    <option value="Utrecht">
+                                    <option value="Antwerpen">
+                                    <option value="Arnhem">
+                                    <option value="Brussel">
+                                    <option value="Rotterdam">
+                                    <option value="Eindhoven">
+                                    <option value="Zwolle">
+                                </datalist> <br>
+                                    <select required naam="Concerten" id="concerten">
+                                        <option value="0">Kies een concert</option>
+                                        <option value="Manu Chau">Manu Chau</option>
+                                        <option value="Evanescence">Evanescence</option>
+                                        <option value="Sade">Sade</option>
+                                    </select> <br>
+                                <label for="datum">Geboortedatum</label> <br>
+                                    <input required type="date" id="datum" name="datum"> <br>
+                              
+                              
+                                    <label for="geslacht">Geslacht:</label> <br>
+                                    Man <input required type="radio" name="geslacht" value="M"> <br>
+                                    Vrouw <input required type="radio" name="geslacht" value="V"> <br><br>
+
+                                <textarea placeholder="Typ je vraag of commentaar in . . . "></textarea> <br>
+                            
+                                <label for="abbonementen">Gratis Abbonementen:</label><br>
+                                    Nieuwsbrief: 
+                                        <input type="checkbox" name="nieuwsbrief"
+                                        id="nieuwsbrief" value="nieuwsbrief"><br>
+                                    Concertagenda:
+                                        <input type="checkbox" name="agenda"
+                                        id="agenda" value="agenda"><br>
+                                <label for="ranking">Album Ranking</label>
+                                <input type="range" name="ranking" id="ranking" min="1" max="5">
+                          </fieldset>
+                          <input type="submit" id="verzend" name="verzend" value="Verzend">
+                        </form>
+                        <div id="pager">
+                                <div id="vorige">
+                                    <a href="playlist.html"> &lt;</a>
+                                </div>
+                                <div id="volgende">
+                                    <a href="contact.html">&gt;</a>
+                                </div>
+                            </div>
+			</main>
+			
+			<footer>
+				<a href="#top"><img src="fotos/twitter.png" alt="X"></a>
+				<a href="#top"><img src="fotos/youtube.png" alt="X"></a>
+				<a href="#top"><img src="fotos/facebook.png" alt="X"></a>
+				<p>Copyright &copy 2020 <i>Ontworpen door Linda de</i>
+					Alle rechten voorbehouden.</p>
+			</footer>	
+		</body>
+	</html>
+	

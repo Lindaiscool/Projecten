@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Blog</title>
+            <link rel="stylesheet" href="style.css">
+            <style>
+            
+            nav{width: 100%;} 
+            ul li{
+                    width:25%;
+                }
+            </style>
+        </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="registreer.html">registreer</a></li>
+                    <li><a href="loguit.php">loguit</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+            <p><br><br>Mijn blog</p>
+            <form action= 'blog.php' method='post'>
+                <textarea name='blog' placeholder='Typ hier je blog....'
+                rows=10 cols='100'></textarea><br>
+                <input type='reset' name='reset' value='Resetten'>
+                <input type='submit' name='submit' value='Posten'>
+            </form>
+        </body>
+    </html>
